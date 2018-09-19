@@ -7,3 +7,5 @@ These are at the following locations:
 - 0x10889A
 - 0x108946
 
+This can be fixed by freeing the space of the cleaned string, but only if it has more than 0 characters.
+Otherwise, a whitespace string could throw errors. 
