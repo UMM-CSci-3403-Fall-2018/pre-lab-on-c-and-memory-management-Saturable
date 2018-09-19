@@ -1,4 +1,9 @@
 # Leak report
 
-_Use this document to describe whatever memory leaks you find in `clean_whitespace.c` and how you might fix them. You should also probably remove this explanatory text._
+There is a leak of 46 bytes in 6 blocks.
+These are at the following locations:
+- 0x4C31B25
+- 0x10882E
+- 0x10889A
+- 0x108946
 
